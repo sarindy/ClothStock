@@ -20,7 +20,7 @@ public class StockMasterServiceImpl implements StockMasterService {
 
 	@Override
 	public StockMasterModel addStock(StockMasterModel stockMasterModel) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
