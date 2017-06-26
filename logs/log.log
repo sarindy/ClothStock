@@ -1,0 +1,190 @@
+2017-06-26 14:26:10 INFO  c.e.a.ClothStockApplication:48 - Starting ClothStockApplication on HQB100DIT15 with PID 13556 (E:\Documents\Java\AliveStockWorkspace\ClothStock\target\classes started by Dy in E:\Documents\Java\AliveStockWorkspace\ClothStock)
+2017-06-26 14:26:10 INFO  c.e.a.ClothStockApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-26 14:26:10 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 14:26:10 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:12 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-26 14:26:12 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-06-26 14:26:12 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-06-26 14:26:12 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-26 14:26:12 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1594 ms
+2017-06-26 14:26:12 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-26 14:26:12 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-26 14:26:12 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-26 14:26:12 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-26 14:26:12 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-26 14:26:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-06-26 14:26:12 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-06-26 14:26:13 INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-06-26 14:26:13 INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-06-26 14:26:13 INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-06-26 14:26:13 INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-26 14:26:13 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-26 14:26:13 INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-06-26 14:26:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 14:26:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 14:26:10 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-26 14:26:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-26 14:26:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:13 WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration:60 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-06-26 14:26:14 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-06-26 14:26:14 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-26 14:26:14 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-26 14:26:14 INFO  c.e.a.ClothStockApplication:57 - Started ClothStockApplication in 4.426 seconds (JVM running for 4.973)
+2017-06-26 14:26:31 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 14:26:10 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:31 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-26 14:26:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 14:26:31 INFO  c.e.a.ClothStockApplication:48 - Starting ClothStockApplication on HQB100DIT15 with PID 13556 (E:\Documents\Java\AliveStockWorkspace\ClothStock\target\classes started by Dy in E:\Documents\Java\AliveStockWorkspace\ClothStock)
+2017-06-26 14:26:31 INFO  c.e.a.ClothStockApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-26 14:26:31 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66ae63ef: startup date [Mon Jun 26 14:26:31 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:31 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-26 14:26:31 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-06-26 14:26:31 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-06-26 14:26:31 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-26 14:26:31 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 469 ms
+2017-06-26 14:26:31 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-26 14:26:31 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-26 14:26:31 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-26 14:26:31 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-26 14:26:31 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-26 14:26:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-06-26 14:26:31 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-06-26 14:26:32 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-26 14:26:32 INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-06-26 14:26:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 14:26:32 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66ae63ef: startup date [Mon Jun 26 14:26:31 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:32 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-26 14:26:32 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-26 14:26:32 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:32 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:32 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 14:26:32 WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration:60 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-06-26 14:26:32 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-06-26 14:26:32 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-26 14:26:32 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-26 14:26:32 INFO  c.e.a.ClothStockApplication:57 - Started ClothStockApplication in 0.936 seconds (JVM running for 22.667)
+2017-06-26 14:26:38 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-06-26 14:26:38 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66ae63ef: startup date [Mon Jun 26 14:26:31 ICT 2017]; root of context hierarchy
+2017-06-26 14:26:38 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-26 14:26:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:04:09 INFO  c.a.ClothStockApplication:48 - Starting ClothStockApplication on HQB100DIT15 with PID 13568 (E:\Documents\Java\AliveStockWorkspace\ClothStock\target\classes started by Dy in E:\Documents\Java\AliveStockWorkspace\ClothStock)
+2017-06-26 15:04:09 INFO  c.a.ClothStockApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-26 15:04:09 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4375954b: startup date [Mon Jun 26 15:04:09 ICT 2017]; root of context hierarchy
+2017-06-26 15:04:11 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-26 15:04:11 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-06-26 15:04:11 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-06-26 15:04:11 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-26 15:04:11 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1528 ms
+2017-06-26 15:04:11 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-26 15:04:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-26 15:04:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-26 15:04:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-26 15:04:11 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-26 15:04:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:04:12 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-06-26 15:04:12 INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-06-26 15:04:12 INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-06-26 15:04:12 INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-06-26 15:04:12 INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-26 15:04:12 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-26 15:04:12 INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-06-26 15:04:12 INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl:365 - HHH000262: Table not found: stock_master_detail
+2017-06-26 15:04:12 INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl:365 - HHH000262: Table not found: stock_master_detail
+2017-06-26 15:04:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:04:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4375954b: startup date [Mon Jun 26 15:04:09 ICT 2017]; root of context hierarchy
+2017-06-26 15:04:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-26 15:04:13 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-26 15:04:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:04:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:04:13 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:04:13 WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration:60 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-06-26 15:04:13 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-06-26 15:04:13 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-26 15:04:13 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-26 15:04:13 INFO  c.a.ClothStockApplication:57 - Started ClothStockApplication in 4.535 seconds (JVM running for 5.06)
+2017-06-26 15:04:38 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-06-26 15:04:38 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4375954b: startup date [Mon Jun 26 15:04:09 ICT 2017]; root of context hierarchy
+2017-06-26 15:04:38 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-26 15:04:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:09:16 INFO  c.a.ClothStockApplication:48 - Starting ClothStockApplication on HQB100DIT15 with PID 13576 (E:\Documents\Java\AliveStockWorkspace\ClothStock\target\classes started by Dy in E:\Documents\Java\AliveStockWorkspace\ClothStock)
+2017-06-26 15:09:16 INFO  c.a.ClothStockApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-26 15:09:16 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 15:09:16 ICT 2017]; root of context hierarchy
+2017-06-26 15:09:18 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-26 15:09:18 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-06-26 15:09:18 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-06-26 15:09:18 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-26 15:09:18 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1512 ms
+2017-06-26 15:09:18 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-26 15:09:18 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-26 15:09:18 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-26 15:09:18 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-26 15:09:18 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-26 15:09:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:09:19 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-06-26 15:09:19 INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-06-26 15:09:19 INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-06-26 15:09:19 INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-06-26 15:09:19 INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-26 15:09:19 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-26 15:09:19 INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-06-26 15:09:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:09:20 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 15:09:16 ICT 2017]; root of context hierarchy
+2017-06-26 15:09:20 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-26 15:09:20 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-26 15:09:20 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:09:20 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:09:20 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:09:20 WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration:60 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-06-26 15:09:21 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-06-26 15:09:21 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-26 15:09:21 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-26 15:09:21 INFO  c.a.ClothStockApplication:57 - Started ClothStockApplication in 4.554 seconds (JVM running for 5.085)
+2017-06-26 15:10:01 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Mon Jun 26 15:09:16 ICT 2017]; root of context hierarchy
+2017-06-26 15:10:01 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-26 15:10:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:10:01 INFO  c.a.ClothStockApplication:48 - Starting ClothStockApplication on HQB100DIT15 with PID 13576 (E:\Documents\Java\AliveStockWorkspace\ClothStock\target\classes started by Dy in E:\Documents\Java\AliveStockWorkspace\ClothStock)
+2017-06-26 15:10:01 INFO  c.a.ClothStockApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-26 15:10:01 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f21036f: startup date [Mon Jun 26 15:10:01 ICT 2017]; root of context hierarchy
+2017-06-26 15:10:01 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-26 15:10:01 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-06-26 15:10:01 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-06-26 15:10:01 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-26 15:10:01 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 502 ms
+2017-06-26 15:10:01 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-26 15:10:01 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-26 15:10:01 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-26 15:10:01 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-26 15:10:01 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-26 15:10:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:10:01 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-06-26 15:10:01 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-26 15:10:02 INFO  o.h.t.h.SchemaExport:400 - HHH000227: Running hbm2ddl schema export
+2017-06-26 15:10:02 INFO  o.h.t.h.SchemaExport:464 - HHH000230: Schema export complete
+2017-06-26 15:10:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:10:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f21036f: startup date [Mon Jun 26 15:10:01 ICT 2017]; root of context hierarchy
+2017-06-26 15:10:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-26 15:10:02 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-26 15:10:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:10:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:10:02 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-26 15:10:02 WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration:60 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-06-26 15:10:02 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-06-26 15:10:02 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-26 15:10:02 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-26 15:10:02 INFO  c.a.ClothStockApplication:57 - Started ClothStockApplication in 1.143 seconds (JVM running for 46.398)
+2017-06-26 15:12:04 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-06-26 15:12:04 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f21036f: startup date [Mon Jun 26 15:10:01 ICT 2017]; root of context hierarchy
+2017-06-26 15:12:04 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-26 15:12:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-06-26 15:12:04 INFO  o.h.t.h.SchemaExport:400 - HHH000227: Running hbm2ddl schema export
+2017-06-26 15:12:04 INFO  o.h.t.h.SchemaExport:464 - HHH000230: Schema export complete
