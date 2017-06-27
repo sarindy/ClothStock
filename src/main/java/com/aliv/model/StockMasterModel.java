@@ -25,9 +25,9 @@ public class StockMasterModel {
 	@Column(name = "stock_item_id")
 	private long id;
 
-	@Column(name = "stock_item_no",unique=true)
+	@Column(name = "stock_item_no", unique = true)
 	private String stockItemNo;
-	@Column(name = "stock_name",unique=true)
+	@Column(name = "stock_name", unique = true)
 	private String stockName;
 	@Column(name = "stock_description")
 	private String stockDescription;
@@ -50,9 +50,10 @@ public class StockMasterModel {
 
 	@Column(name = "date_done")
 	@Temporal(TemporalType.TIMESTAMP)
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+7")
+	//@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+7") this only change in json
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss", timezone = "GMT+7")
 	private Date dateDone;
-	
+
 	private String deleted;
 
 	public long getId() {
@@ -156,10 +157,8 @@ public class StockMasterModel {
 	}
 
 	public void setDateDone(Date dateDone) {
-		this.dateDone = dateDone;
+		this.dateDone = new Date();
 	}
-
-	
 
 	public String getDeleted() {
 		return deleted;
@@ -183,7 +182,7 @@ public class StockMasterModel {
 			String stockManufacturer, double costPerItem, long stockQuantity, double inventoryValue,
 			int stockReorderLevel, int stockDaysPerOrder, int stockDisContinue, String inOrOut, Date dateDone,
 			String deleted) {
-		
+
 		this.stockItemNo = stockItemNo;
 		this.stockName = stockName;
 		this.stockDescription = stockDescription;
@@ -198,7 +197,7 @@ public class StockMasterModel {
 		this.dateDone = dateDone;
 		this.deleted = deleted;
 	}
-	
+
 	public StockMasterModel() {
 		// TODO Auto-generated constructor stub
 	}
@@ -206,8 +205,5 @@ public class StockMasterModel {
 	public StockMasterModel stockMasterModel() {
 		return new StockMasterModel();
 	}
-	
-	
 
-	
 }

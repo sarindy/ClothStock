@@ -2,6 +2,7 @@ package com.aliv.repository;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -19,5 +20,8 @@ public interface StockMasterRepo extends CrudRepository<StockMasterModel, Intege
 	public List<StockMasterModel> findByStockNameLikeOrderByStockName(String stockName);
 
 	public List<StockMasterModel> findByStockDescriptionLikeOrderByStockName(String stockDescription);
+
+	@Query(value = "SELECT * FROM stock_master_detail WHERE deleted= ?1", nativeQuery = true)
+	public List<StockMasterModel> findAllActive(String deleted);
 
 }
